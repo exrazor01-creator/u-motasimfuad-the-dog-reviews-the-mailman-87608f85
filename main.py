@@ -2,12 +2,12 @@
 
 The line is a one-star review written by the dog itself, in first person,
 about the one visitor who shows up every single day and never stays.
-The joke turns on the dog's two obsessions colliding: the mailman smells
-of every other dog on the street -- the most exciting smell in the world
--- and yet he always leaves before the dog can properly sniff his bag.
-The grievance is pure dog logic (a stranger who smells that interesting
-should stay and be sniffed), and the closing "The audacity" is the dog
-filing its formal complaint in the voice of an outraged customer.
+The joke turns on the dog's two obsessions colliding: the mailman reeks
+of every other dog on the block -- the most exciting smell in the world
+-- and yet he always leaves before the dog can sniff his bag. The
+closing tally ("Zero treats, zero belly rubs, total audacity") is the
+dog itemising what it was owed for a daily visit, in the voice of an
+outraged customer filing a formal complaint.
 """
 
 import os
@@ -16,7 +16,7 @@ import os
 # He arrives daily smelling of every dog on the street, then leaves
 # without letting the reviewer sniff his bag -- the ultimate insult
 # from a dog's point of view, delivered with customer-review outrage.
-LINE = "One star. He comes every day smelling of every dog on the street, then leaves without letting me sniff his bag. The audacity."
+LINE = "One star. He arrives daily reeking of every dog on the block, then leaves before I can sniff his bag. Zero treats, zero belly rubs, total audacity."
 
 
 def validate(text):
